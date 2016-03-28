@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13764" started-at="2016-03-27T00:05:26Z" finished-at="2016-03-27T00:05:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13764" started-at="2016-03-27T00:05:26Z" finished-at="2016-03-27T00:05:40Z">
+      <class name="com.selenium.testng.web.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.testng.web.LoginTest@19f70605]" name="setUp" is-config="true" duration-ms="3185" started-at="2016-03-26T17:05:26Z" finished-at="2016-03-26T17:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginCorrect()[pri:0, instance:com.selenium.testng.web.LoginTest@19f70605]" name="loginCorrect" duration-ms="3562" started-at="2016-03-26T17:05:29Z" finished-at="2016-03-26T17:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrect -->
+        <test-method status="PASS" signature="loginInCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.web.LoginTest@19f70605]" name="loginInCorrect" duration-ms="1544" started-at="2016-03-26T17:05:33Z" data-provider="inValidCredentials" finished-at="2016-03-26T17:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inValidUserName0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[inValidPassword0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInCorrect -->
+        <test-method status="PASS" signature="loginInCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.web.LoginTest@19f70605]" name="loginInCorrect" duration-ms="1889" started-at="2016-03-26T17:05:34Z" data-provider="inValidCredentials" finished-at="2016-03-26T17:05:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inValidUserName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[inValidPassword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInCorrect -->
+        <test-method status="PASS" signature="loginInCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.web.LoginTest@19f70605]" name="loginInCorrect" duration-ms="1641" started-at="2016-03-26T17:05:36Z" data-provider="inValidCredentials" finished-at="2016-03-26T17:05:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inValidUserName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[inValidPassword2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInCorrect -->
+        <test-method status="PASS" signature="loginInCorrect(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testng.web.LoginTest@19f70605]" name="loginInCorrect" duration-ms="1834" started-at="2016-03-26T17:05:38Z" data-provider="inValidCredentials" finished-at="2016-03-26T17:05:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inValidUserName3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[inValidPassword3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInCorrect -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.testng.web.LoginTest@19f70605]" name="tearDown" is-config="true" duration-ms="92" started-at="2016-03-26T17:05:40Z" finished-at="2016-03-26T17:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.testng.web.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
